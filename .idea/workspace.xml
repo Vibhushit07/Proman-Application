@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1579399e-4d6a-4fab-a156-edf73235c8f2" name="Default Changelist" comment="" />
+    <list default="true" id="1579399e-4d6a-4fab-a156-edf73235c8f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proman-service/src/main/java/com/upgrad/proman/service/business/SignupBusinessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proman-service/src/main/java/com/upgrad/proman/service/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proman-service/src/main/java/com/upgrad/proman/service/entity/RoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proman-service/src/main/java/com/upgrad/proman/service/entity/UserAuthTokenEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proman-service/src/main/java/com/upgrad/proman/service/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/src/main/java/com/upgrad/proman/api/controller/SignupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/src/main/java/com/upgrad/proman/api/controller/SignupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/CreateUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/CreateUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/CreateUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/CreateUserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/ErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/PermissionsType.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/PermissionsType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/RoleDetailsType.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/RoleDetailsType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/RoleRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/RoleRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/RoleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/RoleType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/SignupUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/SignupUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/SignupUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/SignupUserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UpdateUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UpdateUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserDetailsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserDetailsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserOperationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserOperationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserOperationsRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserOperationsRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserSummaryType.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UserSummaryType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UsersSummaryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/com/upgrad/proman/api/model/UsersSummaryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/io/swagger/api/ApiException.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/io/swagger/api/ApiException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/io/swagger/api/ApiOriginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/io/swagger/api/ApiOriginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/io/swagger/api/ApiResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/io/swagger/api/ApiResponseMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/io/swagger/api/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/io/swagger/api/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/generated-sources/io/swagger/configuration/SwaggerDocumentationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/generated-sources/io/swagger/configuration/SwaggerDocumentationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-api/target/proman-api-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/proman-api/target/proman-api-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-db/src/main/resources/config/localhost.properties" beforeDir="false" afterPath="$PROJECT_DIR$/proman-db/src/main/resources/config/localhost.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-db/target/classes/config/localhost.properties" beforeDir="false" afterPath="$PROJECT_DIR$/proman-db/target/classes/config/localhost.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-db/target/proman-db.jar" beforeDir="false" afterPath="$PROJECT_DIR$/proman-db/target/proman-db.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proman-service/target/proman-service-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/proman-service/target/proman-service-1.0.0-SNAPSHOT.jar" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +63,9 @@
       <find>io.sp</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -38,16 +80,21 @@
     </option>
   </component>
   <component name="ProjectId" id="1b0KZzwgGtOgSAEl3WVOsj0nLLW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value=".yaml&#9;FILE&#9;file://C:/Users/Abhi.Mahajan/Downloads/proman_session1/proman/proman-api/src/main/resources/application.yaml&#10;lo&#9;FILE&#9;file://C:/Users/Abhi.Mahajan/Downloads/proman_session1/proman/proman-db/src/main/resources/config/localhost.properties&#10;signupbusinesser&#9;FILE&#9;file://C:/Users/Sachet.Shandilya/IdeaProjects/proman/proman-service/src/main/java/com/upgrad/proman/service/business/SignupBusinessService.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538130892939" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../proman1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -150,6 +197,22 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="masterDetails">
     <states>
